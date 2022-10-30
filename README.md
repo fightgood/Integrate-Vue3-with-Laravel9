@@ -50,8 +50,7 @@ In laravel 9 latest release install `vitejs/plugin-vue` plugin for installing vu
 ### Step 5: Update vite.config.js file
 
 Vite is a module bundler for modern JavaScript applications. Open `vite.config.js` and copy-paste the following code. First invoice defineConfig from vite at the top of the file and also import laravel-vite-plugin. Here plugins() take the path of the js and CSS file and create bundles for your application. you need to add `vue()` in the plugins array.
-
-    // vite.config.js
+    
     import { defineConfig } from 'vite';
     import laravel from 'laravel-vite-plugin';
     import vue from '@vitejs/plugin-vue'
