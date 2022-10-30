@@ -1,4 +1,4 @@
-# How To Install Vue 3 in Laravel 9 with Vite
+# Integrate-Vue3-with-Laravel9
 Laravel has just released **"laravel 9.36.4"** with a major change. There is no more webpack.mix.js file in the laravel root in the place of the **_webpack.mix.js_** file **_vite.config.js_** file is introduced.
 
 In this post, we will learn how to install Vue js 3 in laravel 9.36.4 with vite. This post shows you how to install vue 3 in laravel 9 with the latest upgrades. If you want to see an example of **installing vue 3 in laravel-vite** then you are in the right place. Laravel 9.36.4 with vite is the latest version of the laravel framework at the writing of this article. As you know Laravel is the most popular PHP framework and it’s easy to use scale, and flexible. Vue js **is a progressive framework for building user interfaces** and it is lightweight and easy to use and learn. Vue 3 is the latest version of the Vuejs Framework and growing rapidly.
