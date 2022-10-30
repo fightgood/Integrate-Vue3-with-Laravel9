@@ -67,7 +67,7 @@ Vite is a module bundler for modern JavaScript applications. Open `vite.config.j
     
 ### Step 6: Vite Dev Server Start
 
-Now after installing the vue 3, we need to start the dev server for vite for that run the following command and it will watch your `resources/js/app.js` file and `resources/css/app.css` file. It also starts a vite server on `http://localhost:3000`. you can not open it in the browser as it is for vite hot reload and it runs in the background and watches the assets of your application like js and CSS.
+Now after installing the vue 3, we need to start the dev server for vite for that run the following command and it will watch your `resources/js/app.js` file and `resources/css/app.css` file. It also starts a vite server on `http://localhost:4000`. you can not open it in the browser as it is for vite hot reload and it runs in the background and watches the assets of your application like js and CSS.
 
     npm run dev
 
