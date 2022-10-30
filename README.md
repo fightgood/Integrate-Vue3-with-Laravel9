@@ -43,7 +43,7 @@ Now after installing node modules we need to install vue 3 in our application, f
 
 ### Step 4: Install vitejs/plugin-vue plugin
 
-In laravel 9 latest release install `vitejs/plugin-vue` plugin for installing vue3 or vue in laravel. This plugin provides required dependencies to run the vuejs application on vite. Vite is a  build command that bundles your code with Rollup and runs of `localhost:3000` port to give hot refresh feature.
+In laravel 9 latest release install `vitejs/plugin-vue` plugin for installing vue3 or vue in laravel. This plugin provides required dependencies to run the vuejs application on vite. Vite is a  build command that bundles your code with Rollup and runs of `localhost:4000` port to give hot refresh feature.
 
     npm i @vitejs/plugin-vue
 
