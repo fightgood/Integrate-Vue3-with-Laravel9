@@ -1,4 +1,4 @@
-# How To Install Vue 3 in Laravel 9 with Vite
+# Integrate-Vue3-with-Laravel9
 Laravel has just released **"laravel 9.36.4"** with a major change. There is no more webpack.mix.js file in the laravel root in the place of the **_webpack.mix.js_** file **_vite.config.js_** file is introduced.
 
 In this post, we will learn how to install Vue js 3 in laravel 9.36.4 with vite. This post shows you how to install vue 3 in laravel 9 with the latest upgrades. If you want to see an example of **installing vue 3 in laravel-vite** then you are in the right place. Laravel 9.36.4 with vite is the latest version of the laravel framework at the writing of this article. As you know Laravel is the most popular PHP framework and it’s easy to use scale, and flexible. Vue js **is a progressive framework for building user interfaces** and it is lightweight and easy to use and learn. Vue 3 is the latest version of the Vuejs Framework and growing rapidly.
@@ -32,6 +32,7 @@ or, if you have installed the Laravel Installer as a global composer dependency 
 
 In Project `laravel9-vue3-vite` run the following command to install frontend dependencies:
 
+    cd laravel9-vue3-vite
     npm install
 
 ### Step 3: Install Vue 3
@@ -42,13 +43,13 @@ Now after installing node modules we need to install vue 3 in our application, f
 
 ### Step 4: Install vitejs/plugin-vue plugin
 
-In laravel 9 latest release install `vitejs/plugin-vue` plugin for installing vue3 or vue in laravel. This plugin provides required dependencies to run the vuejs application on vite. Vite is a  build command that bundles your code with Rollup and runs of localhost:3000 port to give hot refresh feature.
+In laravel 9 latest release install `vitejs/plugin-vue` plugin for installing vue3 or vue in laravel. This plugin provides required dependencies to run the vuejs application on vite. Vite is a  build command that bundles your code with Rollup and runs of `localhost:3000` port to give hot refresh feature.
 
     npm i @vitejs/plugin-vue
 
 ### Step 5: Update vite.config.js file
 
-Vite is a module bundler for modern JavaScript applications. Open `vite.config.js` and copy-paste the following code. First invoice defineConfig from vite at the top of the file and also import laravel-vite-plugin. Here plugins() take the path of the js and CSS file and create bundles for your application. you need to add vue() in the plugins array.
+Vite is a module bundler for modern JavaScript applications. Open `vite.config.js` and copy-paste the following code. First invoice defineConfig from vite at the top of the file and also import laravel-vite-plugin. Here plugins() take the path of the js and CSS file and create bundles for your application. you need to add `vue()` in the plugins array.
 
     // vite.config.js
     import { defineConfig } from 'vite';
