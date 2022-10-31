@@ -53,7 +53,7 @@ Vite is a module bundler for modern JavaScript applications. Open `vite.config.j
     
     import { defineConfig } from 'vite';
     import laravel from 'laravel-vite-plugin';
-    import vue from '@vitejs/plugin-vue'
+    import vue from '@vitejs/plugin-vue';
     
     export default defineConfig({
         plugins: [
